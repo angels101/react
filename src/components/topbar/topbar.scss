@@ -8,7 +8,7 @@
     color: $mainColor;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     transition: all 1s ease;
 
     .wrapper {
@@ -53,6 +53,20 @@
              flex-direction: column;
              justify-content: space-between;
              cursor: pointer;
+
+             .itemContainer{
+                display: flex;
+                align-items: center;
+                margin-right: 30px;
+
+             
+             .shopping{
+                 font-style: 18px;
+                 margin-left: 5px;
+                 color: red;
+             }
+            }
+             
 
              span {
                 width: 100%;
