@@ -1,0 +1,57 @@
+{
+    "typescript.tsdk": "typescript",
+    "php.validate.executablePath": "php",
+    "terminal.integrated.automationShell.linux": "automationShell",
+    "terminal.integrated.automationShell.osx": "osx",
+    "terminal.integrated.automationShell.windows": "linux",
+    "terminal.integrated.defaultProfile.osx": "defaultProfile",
+    "terminal.integrated.profiles.windows": {
+    
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.profiles.osx": {
+    
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "compile-hero.disable-compile-files-on-did-save-code": false
+}
