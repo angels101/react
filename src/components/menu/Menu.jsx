@@ -5,20 +5,20 @@ function Menu({ menuOpen, setMenuOpen }) {
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#intro">Home</a>
+                    <a href="#Intro">Home</a>
                 </li>
 
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="portfolio">Portfolio</a>
+                    <a href="Portfolio">Portfolio</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#works">Works</a>
+                    <a href="#Works">Works</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#Testimonials">Testimonials</a>
                 </li>
                 <li  onClick={()=>setMenuOpen(false)}> 
-                    <a href="#contact">Contact</a>
+                    <a href="#Contact">Contact</a>
                 </li>
 
             </ul>
