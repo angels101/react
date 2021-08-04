@@ -3,7 +3,7 @@
 
 
 .portfolio{
-    background-color: #636061ea;
+    background-color: #f8cad9ea;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@
 
 
             &:active{
-                background-color: greenyellow;
+                background-color: rgb(207, 189, 255);
                 color: rgb(145, 248, 192);
             }
         }
