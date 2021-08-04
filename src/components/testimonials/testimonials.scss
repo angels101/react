@@ -6,12 +6,16 @@
   flex-direction: column;
   align-items: center;
 
-  
+  @include mobile{
+    justify-content: space-around;
+  }
 
 
   h1 {
     font-size: 50px;
-
+    @include mobile{
+      font-size: 20px;
+    }
    
   }
 
@@ -22,7 +26,11 @@
     align-items: center;
     justify-content: center;
 
-   
+    @include mobile{
+      flex-direction: column;
+      height: 100%;
+      
+    }
 
     .card {
       width: 250px;
@@ -35,6 +43,10 @@
       padding: 20px;
       transition: all 1s ease;
 
+      @include mobile{
+        height: 180px;
+        margin: 10px 0;
+      }
       
 
       &.featured{
@@ -42,6 +54,11 @@
           height: 75%;
           margin: 0 30px;
 
+          @include mobile{
+            width: 250px;
+            height: 180px;
+            margin: 1px;
+          }
           
       }
 
@@ -66,6 +83,11 @@
             object-fit: cover;
             margin: 0 30px;
 
+
+            @include mobile{
+              width: 40px;
+              height: 40px;
+            }
             
           }
         }
@@ -76,6 +98,11 @@
         border-radius: 10px;
         background-color: rgb(250, 244, 245);
 
+
+        @include mobile{
+          font-size: 12px;
+          padding: 5px;
+        }
         
       }
       .bottom {
@@ -87,10 +114,16 @@
         h3 {
           margin-bottom: 5px;
 
+          @include mobile{
+            font-size: 14px;
+          }
           
         }
         h4{
             color: rgb(121, 115, 115);
+            @include mobile{
+              font-size: 13px;
+            }
         
         }
       }
